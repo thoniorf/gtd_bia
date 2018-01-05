@@ -456,11 +456,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="8959.8441"
-     inkscape:cy="-1393.3779"
+     inkscape:zoom="0.088388348"
+     inkscape:cx="4914.8232"
+     inkscape:cy="-907.85402"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer7"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -472,8 +472,8 @@
      inkscape:object-paths="true"
      showborder="false"
      inkscape:object-nodes="false"
-     inkscape:window-width="1362"
-     inkscape:window-height="729"
+     inkscape:window-width="1916"
+     inkscape:window-height="1041"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
@@ -4866,7 +4866,7 @@
              y="141.43504"
              x="202.84583"
              id="tspan1766"
-             sodipodi:role="line">Specific</tspan></text>
+             sodipodi:role="line">Name</tspan></text>
       </g>
       <g
          id="g1782"
@@ -8896,30 +8896,6 @@
     </g>
     <g
        style="opacity:1"
-       id="g6604-9"
-       transform="translate(-192.00508,847.40635)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <circle
-         r="4.5435815"
-         cy="-223.44701"
-         cx="192.43677"
-         id="circle6598-2"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92604166;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="200.32736"
-         y="-219.31546"
-         id="text6602-02"><tspan
-           sodipodi:role="line"
-           id="tspan6600-3"
-           x="200.32736"
-           y="-219.31546"
-           style="stroke-width:0.26458332">Specific</tspan></text>
-    </g>
-    <g
-       style="opacity:1"
        id="g6604-31"
        transform="translate(-190.50837,897.49295)"
        inkscape:export-xdpi="96"
@@ -11011,13 +10987,6 @@
        inkscape:export-ydpi="96" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M -4.1016992,624.26354 H -17.525969"
-       id="path3948"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M -2.5816912,674.5966 H -17.525969"
        id="path3952"
        inkscape:connector-curvature="0"
@@ -11825,31 +11794,6 @@
            x="200.32736"
            id="tspan5937"
            sodipodi:role="line">Nationality</tspan></text>
-    </g>
-    <g
-       transform="translate(838.92501,845.72888)"
-       id="g5949"
-       style="opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/thoniorf/Documents/Projects/Unical/bia/data-integration/schema-png/attribute-tree-cleaned.png">
-      <circle
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92604166;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle5943"
-         cx="192.43677"
-         cy="-223.44701"
-         r="4.5435815" />
-      <text
-         id="text5947"
-         y="-219.31546"
-         x="200.32736"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="-219.31546"
-           x="200.32736"
-           id="tspan5945"
-           sodipodi:role="line">Specific</tspan></text>
     </g>
     <g
        transform="translate(1027.0542,803.15847)"
@@ -12806,14 +12750,6 @@
        inkscape:export-filename="/home/thoniorf/Documents/Projects/Unical/bia/data-integration/schema-png/attribute-tree-cleaned.png" />
     <path
        inkscape:connector-curvature="0"
-       id="path6663"
-       d="m 1026.8284,622.58607 h -13.4243"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="/home/thoniorf/Documents/Projects/Unical/bia/data-integration/schema-png/attribute-tree-cleaned.png" />
-    <path
-       inkscape:connector-curvature="0"
        id="path6667"
        d="m 1028.3484,672.91913 h -14.9443"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -13637,30 +13573,6 @@
            id="tspan5937-3"
            sodipodi:role="line">Nationality</tspan></text>
     </g>
-    <g
-       transform="translate(1082.4478,327.51267)"
-       id="g5949-9"
-       style="display:inline;opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <circle
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.92604166;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle5943-2"
-         cx="192.43677"
-         cy="-223.44701"
-         r="4.5435815" />
-      <text
-         id="text5947-8"
-         y="-219.31546"
-         x="200.32736"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="-219.31546"
-           x="200.32736"
-           id="tspan5945-3"
-           sodipodi:role="line">Specific</tspan></text>
-    </g>
     <path
        inkscape:connector-curvature="0"
        id="path6657-0"
@@ -13672,13 +13584,6 @@
        inkscape:connector-curvature="0"
        id="path6661-4"
        d="m 1270.3616,86.246198 h -13.4347"
-       style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path6663-7"
-       d="m 1270.3512,104.36987 h -13.4243"
        style="display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
@@ -14536,53 +14441,53 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="2345.5229"
-       y="27.951136"
+       y="8.6365528"
        id="text7255-3"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan7253-1"
          x="2345.5229"
-         y="27.951136"
+         y="8.6365528"
          style="stroke-width:0.26458332">Fatalities</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="41.180302"
+         y="21.865719"
          style="stroke-width:0.26458332"
          id="tspan7257-4">Injured</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="54.40947"
+         y="35.094887"
          style="stroke-width:0.26458332"
          id="tspan7259-9">People_Survived</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="67.638634"
+         y="48.324051"
          style="stroke-width:0.26458332"
          id="tspan7261-2">Perpetrators_fatalities</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="80.867798"
+         y="61.553219"
          style="stroke-width:0.26458332"
          id="tspan7263-0">Perpetretors_number</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="94.09697"
+         y="74.782387"
          style="stroke-width:0.26458332"
          id="tspan7265-6">Perpetretors_captured</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="107.32613"
+         y="88.011551"
          style="stroke-width:0.26458332"
          id="tspan7267-8">Longitude</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="120.5553"
+         y="101.24072"
          style="stroke-width:0.26458332"
          id="tspan7269-9">Latitude</tspan><tspan
          sodipodi:role="line"
          x="2345.5229"
-         y="133.78447"
+         y="114.46988"
          style="stroke-width:0.26458332"
          id="tspan7271-2">Specificity</tspan></text>
     <rect
@@ -14591,7 +14496,7 @@
        width="137.05417"
        height="137.05417"
        x="2335.8579"
-       y="9.4209986"
+       y="-9.8935843"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <g
@@ -15933,29 +15838,7 @@
          id="tspan8677"
          sodipodi:role="line">Nationality_key</tspan></text>
     <rect
-       y="-29.208166"
-       x="2335.875"
-       height="17.991667"
-       width="137.02008"
-       id="rect8681"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="2351.0513"
-       y="-17.439871"
-       id="text8685"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         sodipodi:role="line"
-         id="tspan8683"
-         x="2351.0513"
-         y="-17.439871"
-         style="stroke-width:0.26458332">Specific_key</tspan></text>
-    <rect
-       y="-9.8935919"
+       y="-29.208176"
        x="2335.875"
        height="17.991667"
        width="137.02008"
@@ -15967,88 +15850,15 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="2351.0513"
-       y="1.8747038"
+       y="-17.439878"
        id="text8697"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan8695"
          x="2351.0513"
-         y="1.8747038"
+         y="-17.439878"
          style="stroke-width:0.26458332">Corporation_key</tspan></text>
-    <g
-       transform="translate(27.43286,516.62411)"
-       id="g8723"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <g
-         style="stroke-width:0.958722"
-         transform="matrix(1.0879642,0,0,1,76.624051,-173.76493)"
-         id="g8705">
-        <text
-           id="text8701"
-           y="-260.40054"
-           x="1809.75"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25366184"
-           xml:space="preserve"><tspan
-             style="stroke-width:0.25366184"
-             y="-260.40054"
-             x="1809.75"
-             id="tspan8699"
-             sodipodi:role="line">SPECIFIC</tspan></text>
-        <rect
-           y="-254.53998"
-           x="1785.782"
-           height="17.991667"
-           width="125.94167"
-           id="rect8703"
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.26830935;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <text
-         id="text8709"
-         y="-416.53662"
-         x="2034.6672"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="-416.53662"
-           x="2034.6672"
-           id="tspan8707"
-           sodipodi:role="line">Specific_key</tspan></text>
-      <text
-         id="text8719"
-         y="-393.50815"
-         x="2025.1235"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan8711"
-           style="stroke-width:0.26458332"
-           y="-393.50815"
-           x="2025.1235"
-           sodipodi:role="line">Specific_name</tspan><tspan
-           id="tspan8713"
-           style="stroke-width:0.26458332"
-           y="-380.27899"
-           x="2025.1235"
-           sodipodi:role="line" /><tspan
-           id="tspan8715"
-           style="stroke-width:0.26458332"
-           y="-367.0498"
-           x="2025.1235"
-           sodipodi:role="line" /><tspan
-           id="tspan8717"
-           style="stroke-width:0.26458332"
-           y="-353.82065"
-           x="2025.1235"
-           sodipodi:role="line" /></text>
-      <rect
-         y="-409.01761"
-         x="2019.4738"
-         height="27.046026"
-         width="137.05417"
-         id="rect8721"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
     <g
        id="g8749"
        transform="translate(-63.1364,356.47621)"
@@ -16204,18 +16014,12 @@
        inkscape:export-ydpi="96" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 2335.875,-20.3905 h -26.6173 V 95.60447 h -125.3138"
-       id="path8785"
-       inkscape:connector-curvature="0"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 2335.875,0.56342984 h -15.0178 V -66.78849 l -227.4826,4.11595"
+       d="m 2335.875,-21.138856 h -15.0178 V -66.78849 l -227.4826,4.11595"
        id="path8787"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -17870,79 +17674,6 @@
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g9437"
-       transform="translate(100.4579,1385.5158)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <g
-         id="g9419"
-         transform="matrix(1.0879642,0,0,1,76.624051,-173.76493)"
-         style="stroke-width:0.958722">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25366184"
-           x="1809.75"
-           y="-260.40054"
-           id="text9415"><tspan
-             sodipodi:role="line"
-             id="tspan9413"
-             x="1809.75"
-             y="-260.40054"
-             style="stroke-width:0.25366184">SPECIFIC</tspan></text>
-        <rect
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.26830935;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect9417"
-           width="125.94167"
-           height="17.991667"
-           x="1785.782"
-           y="-254.53998" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="2034.6672"
-         y="-416.53662"
-         id="text9423"><tspan
-           sodipodi:role="line"
-           id="tspan9421"
-           x="2034.6672"
-           y="-416.53662"
-           style="stroke-width:0.26458332">Specific_key</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="2025.1235"
-         y="-393.50815"
-         id="text9433"><tspan
-           sodipodi:role="line"
-           x="2025.1235"
-           y="-393.50815"
-           style="stroke-width:0.26458332"
-           id="tspan9425">Specific_name</tspan><tspan
-           sodipodi:role="line"
-           x="2025.1235"
-           y="-380.27899"
-           style="stroke-width:0.26458332"
-           id="tspan9427" /><tspan
-           sodipodi:role="line"
-           x="2025.1235"
-           y="-367.0498"
-           style="stroke-width:0.26458332"
-           id="tspan9429" /><tspan
-           sodipodi:role="line"
-           x="2025.1235"
-           y="-353.82065"
-           style="stroke-width:0.26458332"
-           id="tspan9431" /></text>
-      <rect
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9435"
-         width="137.05417"
-         height="27.046026"
-         x="2019.4738"
-         y="-409.01761" />
-    </g>
-    <g
        transform="translate(9.8885989,1225.3679)"
        id="g9463"
        inkscape:export-xdpi="96"
@@ -18097,18 +17828,12 @@
        inkscape:export-ydpi="96" />
     <path
        inkscape:connector-curvature="0"
-       id="path9493"
-       d="m 2408.9,848.50117 h -26.6173 v 115.99497 h -125.3138"
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       inkscape:connector-curvature="0"
        id="path9495"
-       d="m 2408.9,869.4551 h -15.0178 v -67.35192 l -227.4826,4.11595"
+       d="m 2408.9,847.75281 h -15.0178 v -45.64963 l -227.4826,4.11595"
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.66145831;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="cccc" />
     <g
        id="g9579"
        transform="translate(-64.179601,1304.7475)"
@@ -18557,59 +18282,59 @@
          sodipodi:role="line">INT_ANY_key</tspan></text>
     <text
        id="text8987"
-       y="896.35895"
+       y="877.04437"
        x="2419.0679"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          style="stroke-width:0.26458332"
-         y="896.35895"
+         y="877.04437"
          x="2419.0679"
          id="tspan8969"
          sodipodi:role="line">Fatalities</tspan><tspan
          id="tspan8971"
          style="stroke-width:0.26458332"
-         y="909.58813"
+         y="890.27356"
          x="2419.0679"
          sodipodi:role="line">Injured</tspan><tspan
          id="tspan8973"
          style="stroke-width:0.26458332"
-         y="922.81726"
+         y="903.50269"
          x="2419.0679"
          sodipodi:role="line">People_Survived</tspan><tspan
          id="tspan8975"
          style="stroke-width:0.26458332"
-         y="936.04645"
+         y="916.73187"
          x="2419.0679"
          sodipodi:role="line">Perpetrators_fatalities</tspan><tspan
          id="tspan8977"
          style="stroke-width:0.26458332"
-         y="949.27563"
+         y="929.96106"
          x="2419.0679"
          sodipodi:role="line">Perpetretors_number</tspan><tspan
          id="tspan8979"
          style="stroke-width:0.26458332"
-         y="962.50476"
+         y="943.19019"
          x="2419.0679"
          sodipodi:role="line">Perpetretors_captured</tspan><tspan
          id="tspan8981"
          style="stroke-width:0.26458332"
-         y="975.73395"
+         y="956.41937"
          x="2419.0679"
          sodipodi:role="line">Longitude</tspan><tspan
          id="tspan8983"
          style="stroke-width:0.26458332"
-         y="988.96313"
+         y="969.64856"
          x="2419.0679"
          sodipodi:role="line">Latitude</tspan><tspan
          id="tspan8985"
          style="stroke-width:0.26458332"
-         y="1002.1923"
+         y="982.87769"
          x="2419.0679"
          sodipodi:role="line">Specificity</tspan></text>
     <rect
-       y="877.82886"
+       y="858.51428"
        x="2409.4028"
        height="137.05417"
        width="137.05417"
@@ -18641,7 +18366,7 @@
          style="stroke-width:0.26458332">Nationality_key</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect8997"
+       id="rect9003"
        width="137.02008"
        height="17.991667"
        x="2409.4199"
@@ -18649,7 +18374,7 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <text
-       id="text9001"
+       id="text9007"
        y="850.96796"
        x="2424.5962"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -18658,28 +18383,6 @@
        inkscape:export-ydpi="96"><tspan
          style="stroke-width:0.26458332"
          y="850.96796"
-         x="2424.5962"
-         id="tspan8999"
-         sodipodi:role="line">Specific_key</tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect9003"
-       width="137.02008"
-       height="17.991667"
-       x="2409.4199"
-       y="858.51422"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <text
-       id="text9007"
-       y="870.28253"
-       x="2424.5962"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
-         style="stroke-width:0.26458332"
-         y="870.28253"
          x="2424.5962"
          id="tspan9005"
          sodipodi:role="line">Corporation_key</tspan></text>
