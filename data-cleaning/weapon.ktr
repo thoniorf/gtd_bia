@@ -2,9 +2,9 @@
 <transformation>
   <info>
     <name>weapon</name>
-    <description/>
-    <extended_description/>
-    <trans_version/>
+    <description />
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
     <directory>/</directory>
@@ -12,12 +12,12 @@
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -42,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -126,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -208,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -274,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -350,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -402,9 +402,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -415,7 +415,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -445,9 +445,9 @@
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -601,13 +601,13 @@
   <step>
     <name>Block this step until steps finish</name>
     <type>BlockUntilStepsFinish</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <steps>
       <step>
@@ -615,7 +615,7 @@
         <CopyNr>0</CopyNr>
       </step>
     </steps>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -631,16 +631,16 @@
   <step>
     <name>If field value is null</name>
     <type>IfNull</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
+    <replaceAllByValue />
+    <replaceAllMask />
     <selectFields>Y</selectFields>
     <selectValuesType>N</selectValuesType>
     <setEmptyStringAll>N</setEmptyStringAll>
@@ -650,11 +650,11 @@
       <field>
         <name>weapsubtype1_txt</name>
         <value>unknown</value>
-        <mask/>
+        <mask />
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -670,16 +670,16 @@
   <step>
     <name>If field value is null 2</name>
     <type>IfNull</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
+    <replaceAllByValue />
+    <replaceAllMask />
     <selectFields>Y</selectFields>
     <selectValuesType>N</selectValuesType>
     <setEmptyStringAll>N</setEmptyStringAll>
@@ -689,17 +689,17 @@
       <field>
         <name>weaptype1_txt</name>
         <value>unknown</value>
-        <mask/>
+        <mask />
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
         <name>weaptype1</name>
         <value>13</value>
-        <mask/>
+        <mask />
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -715,13 +715,13 @@
   <step>
     <name>Merge Join</name>
     <type>MergeJoin</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <join_type>INNER</join_type>
     <step1>Sort rows</step1>
@@ -732,7 +732,7 @@
     <keys_2>
       <key>eventid</key>
     </keys_2>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -748,13 +748,13 @@
   <step>
     <name>Modified Java Script Value</name>
     <type>ScriptValueMod</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <compatible>Y</compatible>
     <optimizationLevel>9</optimizationLevel>
@@ -771,7 +771,7 @@ weaptype1.setValue(13)
       </jsScript>
     </jsScripts>
     <fields>    </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -787,13 +787,13 @@ weaptype1.setValue(13)
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
@@ -807,7 +807,7 @@ weaptype1.setValue(13)
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -823,13 +823,13 @@ weaptype1.setValue(13)
   <step>
     <name>Select weapon sub type</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
@@ -843,7 +843,7 @@ weaptype1.setValue(13)
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -859,20 +859,20 @@ weaptype1.setValue(13)
   <step>
     <name>Sort rows</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -884,7 +884,7 @@ weaptype1.setValue(13)
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -900,20 +900,20 @@ weaptype1.setValue(13)
   <step>
     <name>Sort rows 2</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -925,7 +925,7 @@ weaptype1.setValue(13)
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -941,20 +941,20 @@ weaptype1.setValue(13)
   <step>
     <name>Sort subtype by key</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -974,7 +974,7 @@ weaptype1.setValue(13)
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -990,20 +990,20 @@ weaptype1.setValue(13)
   <step>
     <name>Sort weapontype key</name>
     <type>SortRows</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory/>
+    <free_memory />
     <compress>N</compress>
-    <compress_variable/>
+    <compress_variable />
     <unique_rows>N</unique_rows>
     <fields>
       <field>
@@ -1015,7 +1015,7 @@ weaptype1.setValue(13)
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1031,30 +1031,30 @@ weaptype1.setValue(13)
   <step>
     <name>String operations</name>
     <type>StringOperations</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <trim_type>none</trim_type>
         <lower_upper>lower</lower_upper>
         <padding_type>none</padding_type>
-        <pad_char/>
-        <pad_len/>
+        <pad_char />
+        <pad_len />
         <init_cap>no</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>
         <remove_special_characters>crlf</remove_special_characters>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1070,30 +1070,30 @@ weaptype1.setValue(13)
   <step>
     <name>String operations 2</name>
     <type>StringOperations</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <trim_type>none</trim_type>
         <lower_upper>lower</lower_upper>
         <padding_type>none</padding_type>
-        <pad_char/>
-        <pad_len/>
+        <pad_char />
+        <pad_len />
         <init_cap>no</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>
         <remove_special_characters>crlf</remove_special_characters>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1109,18 +1109,18 @@ weaptype1.setValue(13)
   <step>
     <name>Unique by key</name>
     <type>Unique</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <count_rows>N</count_rows>
-    <count_field/>
+    <count_field />
     <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description/>
+    <error_description />
     <fields>
       <field>
         <name>weapsubtype1</name>
@@ -1131,7 +1131,7 @@ weaptype1.setValue(13)
         <case_insensitive>N</case_insensitive>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1147,25 +1147,25 @@ weaptype1.setValue(13)
   <step>
     <name>Unique rows</name>
     <type>Unique</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <count_rows>N</count_rows>
-    <count_field/>
+    <count_field />
     <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description/>
+    <error_description />
     <fields>
       <field>
         <name>weaptype1</name>
         <case_insensitive>N</case_insensitive>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1181,31 +1181,31 @@ weaptype1.setValue(13)
   <step>
     <name>Weapon Type Insert / Update</name>
     <type>InsertUpdate</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>gtd</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema/>
+      <schema />
       <table>Weapon_Type</table>
       <key>
         <name>weaptype1_txt</name>
         <field>Name</field>
         <condition>=</condition>
-        <name2/>
+        <name2 />
       </key>
       <key>
         <name>weaptype1</name>
         <field>Weapon_TypeID</field>
         <condition>=</condition>
-        <name2/>
+        <name2 />
       </key>
       <value>
         <name>Name</name>
@@ -1218,7 +1218,7 @@ weaptype1.setValue(13)
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1234,31 +1234,31 @@ weaptype1.setValue(13)
   <step>
     <name>Weapon subtype Insert / Update</name>
     <type>InsertUpdate</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>gtd</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema/>
+      <schema />
       <table>Weapon_Subtype</table>
       <key>
         <name>weapsubtype1_txt</name>
         <field>Name</field>
         <condition>=</condition>
-        <name2/>
+        <name2 />
       </key>
       <key>
         <name>weaptype1</name>
         <field>Type</field>
         <condition>=</condition>
-        <name2/>
+        <name2 />
       </key>
       <value>
         <name>Name</name>
@@ -1271,7 +1271,7 @@ weaptype1.setValue(13)
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1287,17 +1287,17 @@ weaptype1.setValue(13)
   <step>
     <name>gtd_csv</name>
     <type>CsvInput</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <filename>/home/thoniorf/Documents/Projects/Unical/bia/data-integration/globalterrorismdb_0617dist.csv</filename>
-    <filename_field/>
-    <rownum_field/>
+    <filename_field />
+    <rownum_field />
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -1307,7 +1307,7 @@ weaptype1.setValue(13)
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding/>
+    <encoding />
     <fields>
       <field>
         <name>eventid</name>
@@ -1356,7 +1356,7 @@ weaptype1.setValue(13)
       <field>
         <name>approxdate</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1378,7 +1378,7 @@ weaptype1.setValue(13)
       <field>
         <name>resolution</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1400,7 +1400,7 @@ weaptype1.setValue(13)
       <field>
         <name>country_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1422,7 +1422,7 @@ weaptype1.setValue(13)
       <field>
         <name>region_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1433,7 +1433,7 @@ weaptype1.setValue(13)
       <field>
         <name>provstate</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1444,7 +1444,7 @@ weaptype1.setValue(13)
       <field>
         <name>city</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1456,7 +1456,7 @@ weaptype1.setValue(13)
         <name>latitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency/>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -1467,7 +1467,7 @@ weaptype1.setValue(13)
         <name>longitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency/>
+        <currency />
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -1499,7 +1499,7 @@ weaptype1.setValue(13)
       <field>
         <name>location</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1510,7 +1510,7 @@ weaptype1.setValue(13)
       <field>
         <name>summary</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1576,7 +1576,7 @@ weaptype1.setValue(13)
       <field>
         <name>alternative_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1631,7 +1631,7 @@ weaptype1.setValue(13)
       <field>
         <name>attacktype1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1653,7 +1653,7 @@ weaptype1.setValue(13)
       <field>
         <name>attacktype2_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1664,7 +1664,7 @@ weaptype1.setValue(13)
       <field>
         <name>attacktype3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1675,7 +1675,7 @@ weaptype1.setValue(13)
       <field>
         <name>attacktype3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1697,7 +1697,7 @@ weaptype1.setValue(13)
       <field>
         <name>targtype1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1719,7 +1719,7 @@ weaptype1.setValue(13)
       <field>
         <name>targsubtype1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1730,7 +1730,7 @@ weaptype1.setValue(13)
       <field>
         <name>corp1</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1741,7 +1741,7 @@ weaptype1.setValue(13)
       <field>
         <name>target1</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1763,7 +1763,7 @@ weaptype1.setValue(13)
       <field>
         <name>natlty1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1774,7 +1774,7 @@ weaptype1.setValue(13)
       <field>
         <name>targtype2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1785,7 +1785,7 @@ weaptype1.setValue(13)
       <field>
         <name>targtype2_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1796,7 +1796,7 @@ weaptype1.setValue(13)
       <field>
         <name>targsubtype2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1807,7 +1807,7 @@ weaptype1.setValue(13)
       <field>
         <name>targsubtype2_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1818,7 +1818,7 @@ weaptype1.setValue(13)
       <field>
         <name>corp2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1829,7 +1829,7 @@ weaptype1.setValue(13)
       <field>
         <name>target2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1840,7 +1840,7 @@ weaptype1.setValue(13)
       <field>
         <name>natlty2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1851,7 +1851,7 @@ weaptype1.setValue(13)
       <field>
         <name>natlty2_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1862,7 +1862,7 @@ weaptype1.setValue(13)
       <field>
         <name>targtype3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1873,7 +1873,7 @@ weaptype1.setValue(13)
       <field>
         <name>targtype3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1884,7 +1884,7 @@ weaptype1.setValue(13)
       <field>
         <name>targsubtype3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1895,7 +1895,7 @@ weaptype1.setValue(13)
       <field>
         <name>targsubtype3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1906,7 +1906,7 @@ weaptype1.setValue(13)
       <field>
         <name>corp3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1917,7 +1917,7 @@ weaptype1.setValue(13)
       <field>
         <name>target3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1928,7 +1928,7 @@ weaptype1.setValue(13)
       <field>
         <name>natlty3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1939,7 +1939,7 @@ weaptype1.setValue(13)
       <field>
         <name>natlty3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1950,7 +1950,7 @@ weaptype1.setValue(13)
       <field>
         <name>gname</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1961,7 +1961,7 @@ weaptype1.setValue(13)
       <field>
         <name>gsubname</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1972,7 +1972,7 @@ weaptype1.setValue(13)
       <field>
         <name>gname2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1983,7 +1983,7 @@ weaptype1.setValue(13)
       <field>
         <name>gsubname2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1994,7 +1994,7 @@ weaptype1.setValue(13)
       <field>
         <name>gname3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2005,7 +2005,7 @@ weaptype1.setValue(13)
       <field>
         <name>gsubname3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2016,7 +2016,7 @@ weaptype1.setValue(13)
       <field>
         <name>motive</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2038,7 +2038,7 @@ weaptype1.setValue(13)
       <field>
         <name>guncertain2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2049,7 +2049,7 @@ weaptype1.setValue(13)
       <field>
         <name>guncertain3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2115,7 +2115,7 @@ weaptype1.setValue(13)
       <field>
         <name>claimmode_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2126,7 +2126,7 @@ weaptype1.setValue(13)
       <field>
         <name>claim2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2137,7 +2137,7 @@ weaptype1.setValue(13)
       <field>
         <name>claimmode2</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2148,7 +2148,7 @@ weaptype1.setValue(13)
       <field>
         <name>claimmode2_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2159,7 +2159,7 @@ weaptype1.setValue(13)
       <field>
         <name>claim3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2170,7 +2170,7 @@ weaptype1.setValue(13)
       <field>
         <name>claimmode3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2181,7 +2181,7 @@ weaptype1.setValue(13)
       <field>
         <name>claimmode3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2192,7 +2192,7 @@ weaptype1.setValue(13)
       <field>
         <name>compclaim</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2214,7 +2214,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2236,7 +2236,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype1_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2258,7 +2258,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype2_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2280,7 +2280,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype2_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2291,7 +2291,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2302,7 +2302,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2313,7 +2313,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype3</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2324,7 +2324,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype3_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2335,7 +2335,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype4</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2346,7 +2346,7 @@ weaptype1.setValue(13)
       <field>
         <name>weaptype4_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2357,7 +2357,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype4</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2368,7 +2368,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapsubtype4_txt</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2379,7 +2379,7 @@ weaptype1.setValue(13)
       <field>
         <name>weapdetail</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2478,7 +2478,7 @@ weaptype1.setValue(13)
       <field>
         <name>propextent_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2500,7 +2500,7 @@ weaptype1.setValue(13)
       <field>
         <name>propcomment</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2544,7 +2544,7 @@ weaptype1.setValue(13)
       <field>
         <name>nhours</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2555,7 +2555,7 @@ weaptype1.setValue(13)
       <field>
         <name>ndays</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2566,7 +2566,7 @@ weaptype1.setValue(13)
       <field>
         <name>divert</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2577,7 +2577,7 @@ weaptype1.setValue(13)
       <field>
         <name>kidhijcountry</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2610,7 +2610,7 @@ weaptype1.setValue(13)
       <field>
         <name>ransomamtus</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2632,7 +2632,7 @@ weaptype1.setValue(13)
       <field>
         <name>ransompaidus</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2643,7 +2643,7 @@ weaptype1.setValue(13)
       <field>
         <name>ransomnote</name>
         <type>Boolean</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2665,7 +2665,7 @@ weaptype1.setValue(13)
       <field>
         <name>hostkidoutcome_txt</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2687,7 +2687,7 @@ weaptype1.setValue(13)
       <field>
         <name>addnotes</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2698,7 +2698,7 @@ weaptype1.setValue(13)
       <field>
         <name>scite1</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2709,7 +2709,7 @@ weaptype1.setValue(13)
       <field>
         <name>scite2</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2720,7 +2720,7 @@ weaptype1.setValue(13)
       <field>
         <name>scite3</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2731,7 +2731,7 @@ weaptype1.setValue(13)
       <field>
         <name>dbsource</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2786,7 +2786,7 @@ weaptype1.setValue(13)
       <field>
         <name>related</name>
         <type>String</type>
-        <format/>
+        <format />
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2795,7 +2795,7 @@ weaptype1.setValue(13)
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -2811,105 +2811,105 @@ weaptype1.setValue(13)
   <step>
     <name>replace weapon</name>
     <type>ReplaceString</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>^(\((.*?)\))</replace_string>
         <replace_by_string>$2</replace_by_string>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\*</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\?</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>-</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\r</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>no</use_regex>
         <replace_string>\r\n</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weaptype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>no</use_regex>
-        <replace_string/>
-        <replace_by_string/>
+        <replace_string />
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -2925,94 +2925,94 @@ weaptype1.setValue(13)
   <step>
     <name>replace weapon 2</name>
     <type>ReplaceString</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>^(\((.*?)\))</replace_string>
         <replace_by_string>$2</replace_by_string>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\*</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\?</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>-</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>yes</use_regex>
         <replace_string>\r</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
         <in_stream_name>weapsubtype1_txt</in_stream_name>
-        <out_stream_name/>
+        <out_stream_name />
         <use_regex>no</use_regex>
         <replace_string>\r\n</replace_string>
-        <replace_by_string/>
+        <replace_by_string />
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
+        <replace_field_by_string />
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -3028,13 +3028,13 @@ weaptype1.setValue(13)
   <step>
     <name>select weapon type</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
@@ -3048,7 +3048,7 @@ weaptype1.setValue(13)
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
