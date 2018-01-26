@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>nationality</name>
-    <description />
-    <extended_description />
-    <trans_version />
+    <name>claim_mode</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
     <log>
       <trans-log-table>
-        <connection />
-        <schema />
-        <table />
-        <size_limit_lines />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -41,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>ERRORS</id>
@@ -125,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection />
-        <schema />
-        <table />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -207,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -273,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -349,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -401,20 +402,20 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection />
-      <table />
-      <field />
+      <connection/>
+      <table/>
+      <field/>
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
-    <size_rowset>10000</size_rowset>
+    <size_rowset>50000</size_rowset>
     <sleep_time_empty>50</sleep_time_empty>
     <sleep_time_full>50</sleep_time_full>
     <unique_connections>N</unique_connections>
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file />
+    <shared_objects_file/>
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -427,43 +428,88 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2018/01/03 11:16:21.864</created_date>
+    <created_date>2018/01/15 17:22:30.026</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2018/01/03 11:16:21.864</modified_date>
+    <modified_date>2018/01/15 17:22:30.026</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
+  <connection>
+    <name>gtd</name>
+    <server>localhost</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>gtd</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <order>
     <hop>
-      <from>gtd_csv</from>
-      <to>Select values</to>
+      <from>String operations</from>
+      <to>If field value is null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>gtd_csv</from>
-      <to>Select values 2</to>
+      <from>Replace claimed mode</from>
+      <to>String operations</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>gtd_csv</from>
-      <to>Select values 2 2</to>
+      <from>If field value is null</from>
+      <to>Modified Java Script Value</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select values</from>
+      <from>Modified Java Script Value</from>
       <to>Sort rows</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 2</from>
-      <to>Sort rows 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 2 2</from>
-      <to>Sort rows 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -472,37 +518,113 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort rows 2</from>
-      <to>Unique rows 2</to>
+      <from>Unique rows</from>
+      <to>Add sequence</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort rows 3</from>
-      <to>Unique rows 3</to>
+      <from>Add sequence</from>
+      <to>Sort by key</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort by key</from>
+      <to>Insert / Update</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Add sequence</from>
+      <to>Sort rows with key</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Modified Java Script Value</from>
+      <to>Sort rows without key</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows with key</from>
+      <to>Merge Join</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows without key</from>
+      <to>Merge Join</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge Join</from>
+      <to>Select non duplicated values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select fields</from>
+      <to>Replace claimed mode</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select non duplicated values</from>
+      <to>Sort rows claims</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows claims</from>
+      <to>Merge by eventid</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort results</from>
+      <to>Merge by eventid</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge by eventid</from>
+      <to>Select merged</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>gtd_csv</from>
+      <to>Select fields</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get rows from result</from>
+      <to>Sort results</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select merged</from>
+      <to>Copy rows to result</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Copy rows to result</from>
+      <to>log</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
+    <name>Add sequence</name>
+    <type>Sequence</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-    <fields>
-      <field>
-        <name>natlty1</name>
-      </field>
-      <field>
-        <name>natlty1_txt</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
+    <valuename>mode_key</valuename>
+    <use_database>N</use_database>
+    <connection>gtd</connection>
+    <schema/>
+    <seqname>SEQ_</seqname>
+    <use_counter>Y</use_counter>
+    <counter_name/>
+    <start_at>1</start_at>
+    <increment_by>1</increment_by>
+    <max_value>999999999</max_value>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -510,32 +632,112 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>320</xloc>
-      <yloc>176</yloc>
+      <xloc>592</xloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values 2</name>
-    <type>SelectValues</type>
-    <description />
+    <name>Copy rows to result</name>
+    <type>RowsToResult</type>
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
+    </partitioning>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>784</xloc>
+      <yloc>592</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Get rows from result</name>
+    <type>RowsFromResult</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
-        <name>natlty2</name>
+        <name>eventid</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
       <field>
-        <name>natlty2_txt</name>
+        <name>attacktype1</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
       </field>
-      <select_unspecified>N</select_unspecified>
+      <field>
+        <name>attacktype1_txt</name>
+        <type>String</type>
+        <length>30</length>
+        <precision>-1</precision>
+      </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue/>
+    <replaceAllMask/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>claimmode_txt</name>
+        <value>Unknown</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>claimed</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -544,31 +746,45 @@
     </remotesteps>
     <GUI>
       <xloc>432</xloc>
-      <yloc>176</yloc>
+      <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values 2 2</name>
-    <type>SelectValues</type>
-    <description />
+    <name>Insert / Update</name>
+    <type>InsertUpdate</type>
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-    <fields>
-      <field>
-        <name>natlty3</name>
-      </field>
-      <field>
-        <name>natlty3_txt</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
+    <connection>gtd</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>Claimed_Mode</table>
+      <key>
+        <name>mode_key</name>
+        <field>Claimed_ModeID</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>Name</name>
+        <rename>claimmode_txt</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>Claimed_ModeID</name>
+        <rename>mode_key</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -576,32 +792,504 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>544</xloc>
-      <yloc>176</yloc>
+      <xloc>704</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge Join</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>INNER</join_type>
+    <step1>Sort rows without key</step1>
+    <step2>Sort rows with key</step2>
+    <keys_1>
+      <key>claimmode_txt</key>
+    </keys_1>
+    <keys_2>
+      <key>claimmode_txt</key>
+    </keys_2>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge by eventid</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>INNER</join_type>
+    <step1>Sort rows claims</step1>
+    <step2>Sort results</step2>
+    <keys_1>
+      <key>eventid</key>
+    </keys_1>
+    <keys_2>
+      <key>eventid</key>
+    </keys_2>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>992</xloc>
+      <yloc>496</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Modified Java Script Value</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>Y</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+
+if(claimed.getInteger() == 0)
+{
+claimmode_txt.setValue("Not Claimed")
+}</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>592</xloc>
+      <yloc>432</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace claimed mode</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>^(\((.*?)\))</replace_string>
+        <replace_by_string>$2</replace_by_string>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>(\((.*?)\))$</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>\*</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>\?</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>-</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>\r</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>\r\n</replace_string>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>(.*?)([\s\t\n\r]+$)</replace_string>
+        <replace_by_string>$1</replace_by_string>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>no</case_sensitive>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select fields</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+      </field>
+      <field>
+        <name>claimed</name>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>claimed</name>
+        <rename>claimed</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select merged</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+      </field>
+      <field>
+        <name>mode_key</name>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+      </field>
+      <field>
+        <name>claimed</name>
+      </field>
+      <field>
+        <name>attacktype1</name>
+      </field>
+      <field>
+        <name>attacktype1_txt</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>claimed</name>
+        <rename>claimed</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>992</xloc>
+      <yloc>592</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select non duplicated values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+      </field>
+      <field>
+        <name>mode_key</name>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+      </field>
+      <field>
+        <name>claimed</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>claimed</name>
+        <rename>claimed</rename>
+        <type>Integer</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort by key</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>mode_key</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>592</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort results</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>400</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>Sort rows</name>
     <type>SortRows</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory />
+    <free_memory/>
     <compress>N</compress>
-    <compress_variable />
+    <compress_variable/>
     <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>natlty1_txt</name>
+        <name>claimmode_txt</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -609,7 +1297,7 @@
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -617,32 +1305,32 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
-      <yloc>272</yloc>
+      <xloc>592</xloc>
+      <yloc>336</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Sort rows 2</name>
+    <name>Sort rows claims</name>
     <type>SortRows</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
     <sort_size>1000000</sort_size>
-    <free_memory />
+    <free_memory/>
     <compress>N</compress>
-    <compress_variable />
+    <compress_variable/>
     <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>natlty2_txt</name>
+        <name>eventid</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -650,7 +1338,128 @@
         <presorted>N</presorted>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows with key</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>claimmode_txt</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows without key</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>claimmode_txt</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>432</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>String operations</name>
+    <type>StringOperations</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>claimmode_txt</in_stream_name>
+        <out_stream_name/>
+        <trim_type>none</trim_type>
+        <lower_upper>lower</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>yes</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>crlf</remove_special_characters>
+      </field>
+    </fields>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -659,73 +1468,32 @@
     </remotesteps>
     <GUI>
       <xloc>432</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort rows 3</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>natlty3_txt</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>544</xloc>
-      <yloc>272</yloc>
+      <yloc>336</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>Unique rows</name>
     <type>Unique</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <count_rows>N</count_rows>
-    <count_field />
+    <count_field/>
     <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
+    <error_description/>
     <fields>
       <field>
-        <name>natlty1_txt</name>
-        <case_insensitive>N</case_insensitive>
+        <name>claimmode_txt</name>
+        <case_insensitive>Y</case_insensitive>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -733,88 +1501,25 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
-      <yloc>400</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique rows 2</name>
-    <type>Unique</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>      </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>432</xloc>
-      <yloc>400</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique rows 3</name>
-    <type>Unique</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>natlty3_txt</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>544</xloc>
-      <yloc>400</yloc>
+      <xloc>592</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>gtd_csv</name>
     <type>CsvInput</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <filename>/home/thoniorf/Documents/Projects/Unical/bia/data-integration/globalterrorismdb_0617dist.csv</filename>
-    <filename_field />
-    <rownum_field />
+    <filename_field/>
+    <rownum_field/>
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -824,7 +1529,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding />
+    <encoding/>
     <fields>
       <field>
         <name>eventid</name>
@@ -873,7 +1578,7 @@
       <field>
         <name>approxdate</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -895,7 +1600,7 @@
       <field>
         <name>resolution</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -917,7 +1622,7 @@
       <field>
         <name>country_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -939,7 +1644,7 @@
       <field>
         <name>region_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -950,7 +1655,7 @@
       <field>
         <name>provstate</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -961,7 +1666,7 @@
       <field>
         <name>city</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -973,7 +1678,7 @@
         <name>latitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency />
+        <currency/>
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -984,7 +1689,7 @@
         <name>longitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency />
+        <currency/>
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -1016,7 +1721,7 @@
       <field>
         <name>location</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1027,7 +1732,7 @@
       <field>
         <name>summary</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1093,7 +1798,7 @@
       <field>
         <name>alternative_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1148,7 +1853,7 @@
       <field>
         <name>attacktype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1170,7 +1875,7 @@
       <field>
         <name>attacktype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1181,7 +1886,7 @@
       <field>
         <name>attacktype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1192,7 +1897,7 @@
       <field>
         <name>attacktype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1214,7 +1919,7 @@
       <field>
         <name>targtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1236,7 +1941,7 @@
       <field>
         <name>targsubtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1247,7 +1952,7 @@
       <field>
         <name>corp1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1258,7 +1963,7 @@
       <field>
         <name>target1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1280,7 +1985,7 @@
       <field>
         <name>natlty1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1291,7 +1996,7 @@
       <field>
         <name>targtype2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1302,7 +2007,7 @@
       <field>
         <name>targtype2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1313,7 +2018,7 @@
       <field>
         <name>targsubtype2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1324,7 +2029,7 @@
       <field>
         <name>targsubtype2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1335,7 +2040,7 @@
       <field>
         <name>corp2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1346,7 +2051,7 @@
       <field>
         <name>target2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1357,7 +2062,7 @@
       <field>
         <name>natlty2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1368,7 +2073,7 @@
       <field>
         <name>natlty2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1379,7 +2084,7 @@
       <field>
         <name>targtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1390,7 +2095,7 @@
       <field>
         <name>targtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1401,7 +2106,7 @@
       <field>
         <name>targsubtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1412,7 +2117,7 @@
       <field>
         <name>targsubtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1423,7 +2128,7 @@
       <field>
         <name>corp3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1434,7 +2139,7 @@
       <field>
         <name>target3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1445,7 +2150,7 @@
       <field>
         <name>natlty3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1456,7 +2161,7 @@
       <field>
         <name>natlty3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1467,7 +2172,7 @@
       <field>
         <name>gname</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1478,7 +2183,7 @@
       <field>
         <name>gsubname</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1489,7 +2194,7 @@
       <field>
         <name>gname2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1500,7 +2205,7 @@
       <field>
         <name>gsubname2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1511,7 +2216,7 @@
       <field>
         <name>gname3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1522,7 +2227,7 @@
       <field>
         <name>gsubname3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1533,7 +2238,7 @@
       <field>
         <name>motive</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1555,7 +2260,7 @@
       <field>
         <name>guncertain2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1566,7 +2271,7 @@
       <field>
         <name>guncertain3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1632,7 +2337,7 @@
       <field>
         <name>claimmode_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1643,7 +2348,7 @@
       <field>
         <name>claim2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1654,7 +2359,7 @@
       <field>
         <name>claimmode2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1665,7 +2370,7 @@
       <field>
         <name>claimmode2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1676,7 +2381,7 @@
       <field>
         <name>claim3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1687,7 +2392,7 @@
       <field>
         <name>claimmode3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1698,7 +2403,7 @@
       <field>
         <name>claimmode3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1709,7 +2414,7 @@
       <field>
         <name>compclaim</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1731,7 +2436,7 @@
       <field>
         <name>weaptype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1753,7 +2458,7 @@
       <field>
         <name>weapsubtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1775,7 +2480,7 @@
       <field>
         <name>weaptype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1797,7 +2502,7 @@
       <field>
         <name>weapsubtype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1808,7 +2513,7 @@
       <field>
         <name>weaptype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1819,7 +2524,7 @@
       <field>
         <name>weaptype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1830,7 +2535,7 @@
       <field>
         <name>weapsubtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1841,7 +2546,7 @@
       <field>
         <name>weapsubtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1852,7 +2557,7 @@
       <field>
         <name>weaptype4</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1863,7 +2568,7 @@
       <field>
         <name>weaptype4_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1874,7 +2579,7 @@
       <field>
         <name>weapsubtype4</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1885,7 +2590,7 @@
       <field>
         <name>weapsubtype4_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1896,7 +2601,7 @@
       <field>
         <name>weapdetail</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -1995,7 +2700,7 @@
       <field>
         <name>propextent_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2017,7 +2722,7 @@
       <field>
         <name>propcomment</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2061,7 +2766,7 @@
       <field>
         <name>nhours</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2072,7 +2777,7 @@
       <field>
         <name>ndays</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2083,7 +2788,7 @@
       <field>
         <name>divert</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2094,7 +2799,7 @@
       <field>
         <name>kidhijcountry</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2127,7 +2832,7 @@
       <field>
         <name>ransomamtus</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2149,7 +2854,7 @@
       <field>
         <name>ransompaidus</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2160,7 +2865,7 @@
       <field>
         <name>ransomnote</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2182,7 +2887,7 @@
       <field>
         <name>hostkidoutcome_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2204,7 +2909,7 @@
       <field>
         <name>addnotes</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2215,7 +2920,7 @@
       <field>
         <name>scite1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2226,7 +2931,7 @@
       <field>
         <name>scite2</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2237,7 +2942,7 @@
       <field>
         <name>scite3</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2248,7 +2953,7 @@
       <field>
         <name>dbsource</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2303,7 +3008,7 @@
       <field>
         <name>related</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2312,7 +3017,7 @@
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2320,8 +3025,137 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
+      <xloc>432</xloc>
       <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>log</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Entry.Current.Directory}/claim_mode</name>
+      <is_command>N</is_command>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>mode_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>7</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>claimed</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>30</length>
+        <precision>-1</precision>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>672</xloc>
+      <yloc>592</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

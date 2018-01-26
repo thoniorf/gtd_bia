@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>city_prov_region_country</name>
-    <description />
-    <extended_description />
-    <trans_version />
+    <name>country</name>
+    <description/>
+    <extended_description/>
+    <trans_version/>
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
     <directory>/</directory>
@@ -12,12 +12,12 @@
     </parameters>
     <log>
       <trans-log-table>
-        <connection />
-        <schema />
-        <table />
-        <size_limit_lines />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <size_limit_lines/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -42,37 +42,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject />
+          <subject/>
         </field>
         <field>
           <id>ERRORS</id>
@@ -126,11 +126,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection />
-        <schema />
-        <table />
-        <interval />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <interval/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -208,10 +208,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -274,10 +274,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -350,10 +350,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection />
-        <schema />
-        <table />
-        <timeout_days />
+        <connection/>
+        <schema/>
+        <table/>
+        <timeout_days/>
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -402,9 +402,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection />
-      <table />
-      <field />
+      <connection/>
+      <table/>
+      <field/>
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -415,7 +415,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file />
+    <shared_objects_file/>
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -428,97 +428,13 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2017/12/20 15:18:48.159</created_date>
+    <created_date>2018/01/18 15:14:27.002</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2017/12/20 15:18:48.159</modified_date>
+    <modified_date>2018/01/18 15:14:27.002</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
-    <notepad>
-      <note>clean cities</note>
-      <xloc>128</xloc>
-      <yloc>96</yloc>
-      <width>87</width>
-      <heigth>26</heigth>
-      <fontname>Sans</fontname>
-      <fontsize>10</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>clean prov</note>
-      <xloc>416</xloc>
-      <yloc>96</yloc>
-      <width>81</width>
-      <heigth>26</heigth>
-      <fontname>Sans</fontname>
-      <fontsize>10</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>clean region</note>
-      <xloc>672</xloc>
-      <yloc>32</yloc>
-      <width>95</width>
-      <heigth>26</heigth>
-      <fontname>Sans</fontname>
-      <fontsize>10</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>clean country</note>
-      <xloc>592</xloc>
-      <yloc>144</yloc>
-      <width>103</width>
-      <heigth>26</heigth>
-      <fontname>Sans</fontname>
-      <fontsize>10</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
   </notepads>
   <connection>
     <name>gtd</name>
@@ -529,9 +445,9 @@
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-    <servername />
-    <data_tablespace />
-    <index_tablespace />
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -577,93 +493,13 @@
   </connection>
   <order>
     <hop>
-      <from>gtd_csv</from>
-      <to>Select city</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>gtd_csv</from>
-      <to>Select provstate</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort prov by eventid</from>
-      <to>replace prov</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>replace prov</from>
-      <to>lower provinces name</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>gtd_csv</from>
-      <to>Select region</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select region</from>
-      <to>Sort region by eventid</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>gtd_csv</from>
-      <to>Select country</to>
+      <from>Save cleaned country value</from>
+      <to>lower cleaned country</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Select country</from>
-      <to>Sort country by eventid</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select city</from>
-      <to>city field null</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>city field null</from>
-      <to>Sort city by eventid</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select provstate</from>
-      <to>prov field null</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>prov field null</from>
-      <to>Sort prov by eventid</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort city by eventid</from>
-      <to>replace city</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>replace city</from>
-      <to>lower cities name</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort region by eventid</from>
-      <to>replace region</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>replace region</from>
-      <to>lower region name</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort country by eventid</from>
       <to>replace country</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>replace country</from>
-      <to>lower country name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -672,53 +508,13 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Save cleaned country value</from>
-      <to>lower cleaned country</to>
+      <from>gtd_csv</from>
+      <to>Select country</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Save cleaned cities value</from>
-      <to>String lower cleaned cities</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>lower region name</from>
-      <to>Sort by region id</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>lower region name</from>
-      <to>Merge region/country</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort by region id</from>
-      <to>Unique region</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Unique region</from>
-      <to>Region Insert / Update</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Block this step until steps finish</from>
-      <to>Country Insert / Update</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>prov match dictionary</from>
-      <to>Save cleaned prov value</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Save cleaned prov value</from>
-      <to>lower cleaned prov</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>World prov/country dictionary</from>
-      <to>prov match dictionary</to>
+      <from>replace country</from>
+      <to>lower country name</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -727,112 +523,57 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort by country id</from>
-      <to>Unique country</to>
+      <from>Merge Join 2</from>
+      <to>Select non duplicated</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower country name</from>
-      <to>Merge region/country</to>
+      <from>Sort with key</from>
+      <to>Merge Join 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Merge region/country</from>
-      <to>Sort by country id</to>
+      <from>Sort without key</from>
+      <to>Merge Join 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Unique country</from>
-      <to>country match dictionary</to>
+      <from>Select values</from>
+      <to>Sort with key</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower cleaned country</from>
-      <to>Block this step until steps finish</to>
+      <from>Sort country</from>
+      <to>Merge by eventid</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower country name</from>
-      <to>Merge country/prov</to>
+      <from>Get rows from result</from>
+      <to>Sort results</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort provstate</from>
-      <to>Unique provstate</to>
+      <from>Merge by eventid</from>
+      <to>Select merged</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Block this step until steps finish 2</from>
-      <to>Prov Insert / Update</to>
+      <from>Select merged</from>
+      <to>Copy rows to result</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort city name</from>
-      <to>Unique city name</to>
+      <from>Sort results</from>
+      <to>Merge by eventid</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Block this step until steps finish 3</from>
-      <to>Cities Insert / Update</to>
+      <from>Select non duplicated</from>
+      <to>Sort country</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Block this step until steps finish 5</from>
-      <to>city match dictionary</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Block this step until steps finish 4</from>
-      <to>city match dictionary</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>World cities dictionary</from>
-      <to>Block this step until steps finish 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Merge country/prov</from>
-      <to>Select values 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 3</from>
-      <to>Sort provstate</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Unique provstate</from>
-      <to>Add prov key normalized</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add prov key normalized</from>
-      <to>prov match dictionary</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add prov key normalized</from>
-      <to>Merge Join</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>lower cleaned prov</from>
-      <to>Sort rows</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort rows</from>
-      <to>Unique rows</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Unique rows</from>
-      <to>Block this step until steps finish 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>String lower cleaned cities</from>
+      <from>Select country region</from>
       <to>Sort rows 2</to>
       <enabled>Y</enabled>
     </hop>
@@ -843,122 +584,57 @@
     </hop>
     <hop>
       <from>Unique rows 2</from>
-      <to>Block this step until steps finish 3</to>
+      <to>Country Insert / Update</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower provinces name</from>
-      <to>Merge country/prov</to>
+      <from>lower country name</from>
+      <to>Sort rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower cities name</from>
-      <to>Merge prov/cities</to>
+      <from>Sort rows</from>
+      <to>Unique rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Unique city name</from>
-      <to>add city key</to>
+      <from>Unique rows</from>
+      <to>country match dictionary</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>lower provinces name</from>
-      <to>Merge prov/cities</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Merge prov/cities</from>
+      <from>lower cleaned country</from>
       <to>Select values</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Select values</from>
-      <to>Sort rows 3</to>
+      <from>lower country name</from>
+      <to>Sort without key</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort rows 3</from>
-      <to>Merge Join</to>
+      <from>Merge by eventid</from>
+      <to>Select country region</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Merge Join</from>
-      <to>Sort city name</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>add city key</from>
-      <to>Select values 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values 2</from>
-      <to>Block this step until steps finish 5</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>city match dictionary</from>
-      <to>Block this step until steps finish 6</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Block this step until steps finish 6</from>
-      <to>Save cleaned cities value</to>
+      <from>Merge by eventid</from>
+      <to>log</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Add prov key normalized</name>
-    <type>Sequence</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <valuename>prov_key_norm</valuename>
-    <use_database>N</use_database>
-    <connection>gtd</connection>
-    <schema />
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name />
-    <start_at>1</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
+    <name>Copy rows to result</name>
+    <type>RowsToResult</type>
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
-    <steps>
-      <step>
-        <name>Region Insert / Update</name>
-        <CopyNr>0</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -966,235 +642,33 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1216</xloc>
-      <yloc>784</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish 2</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <steps>
-      <step>
-        <name>Country Insert / Update</name>
-        <CopyNr>0</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>1184</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish 3</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <steps>
-      <step>
-        <name>Prov Insert / Update</name>
-        <CopyNr>0</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>1168</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish 4</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <steps>
-      <step>
-        <name>prov match dictionary</name>
-        <CopyNr>0</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>112</xloc>
-      <yloc>832</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish 5</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <steps>
-      <step>
-        <name>prov match dictionary</name>
-        <CopyNr>0</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>960</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Block this step until steps finish 6</name>
-    <type>BlockUntilStepsFinish</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <steps>
-      <step>
-        <name>city match dictionary</name>
-        <CopyNr>31</CopyNr>
-      </step>
-    </steps>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>64</xloc>
-      <yloc>1040</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Cities Insert / Update</name>
-    <type>InsertUpdate</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <connection>gtd</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema />
-      <table>City</table>
-      <key>
-        <name>city_key</name>
-        <field>CityID</field>
-        <condition>=</condition>
-        <name2 />
-      </key>
-      <value>
-        <name>CityID</name>
-        <rename>city_key</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Name</name>
-        <rename>city</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Province</name>
-        <rename>prov_key_norm</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>1264</yloc>
+      <xloc>592</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>Country Insert / Update</name>
     <type>InsertUpdate</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <connection>gtd</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
-      <schema />
+      <schema/>
       <table>Country</table>
       <key>
         <name>country</name>
         <field>CountryID</field>
         <condition>=</condition>
-        <name2 />
+        <name2/>
       </key>
       <value>
         <name>CountryID</name>
@@ -1203,7 +677,7 @@
       </value>
       <value>
         <name>Name</name>
-        <rename>country_txt</rename>
+        <rename>country_match</rename>
         <update>Y</update>
       </value>
       <value>
@@ -1212,7 +686,7 @@
         <update>Y</update>
       </value>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1220,32 +694,160 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1216</xloc>
-      <yloc>864</yloc>
+      <xloc>720</xloc>
+      <yloc>656</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Merge Join</name>
-    <type>MergeJoin</type>
-    <description />
+    <name>Get rows from result</name>
+    <type>RowsFromResult</type>
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>region</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>region_txt</name>
+        <type>String</type>
+        <length>27</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>target_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>hostkidoutcome_txt</name>
+        <type>String</type>
+        <length>35</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ishostkid</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>outcome_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>gname</name>
+        <type>String</type>
+        <length>64</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>group_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>corp1</name>
+        <type>String</type>
+        <length>53</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>corporation_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>mode_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+        <type>String</type>
+        <length>7</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>claimed</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1</name>
+        <type>Integer</type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1_txt</name>
+        <type>String</type>
+        <length>30</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>weapon_subtype_key</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge Join 2</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
     </partitioning>
     <join_type>INNER</join_type>
-    <step1>Sort rows 3</step1>
-    <step2>Add prov key normalized</step2>
+    <step1>Sort without key</step1>
+    <step2>Sort with key</step2>
     <keys_1>
-      <key>provstate</key>
+      <key>country_txt</key>
     </keys_1>
     <keys_2>
-      <key>provstate</key>
+      <key>country_txt</key>
     </keys_2>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1254,31 +856,69 @@
     </remotesteps>
     <GUI>
       <xloc>576</xloc>
-      <yloc>768</yloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Merge country/prov</name>
+    <name>Merge by eventid</name>
     <type>MergeJoin</type>
-    <description />
+    <description/>
     <distribute>N</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <join_type>INNER</join_type>
-    <step1>lower provinces name</step1>
-    <step2>lower country name</step2>
+    <step1>Sort country</step1>
+    <step2>Sort results</step2>
     <keys_1>
       <key>eventid</key>
     </keys_1>
     <keys_2>
       <key>eventid</key>
     </keys_2>
-    <cluster_schema />
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Save cleaned country value</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>Y</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>//Script here
+
+if(measurevalue.getNumber() &lt; 0.9){
+country_match.setValue(country_txt.getString())
+}</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>    </fields>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1287,345 +927,25 @@
     </remotesteps>
     <GUI>
       <xloc>752</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Merge prov/cities</name>
-    <type>MergeJoin</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <join_type>INNER</join_type>
-    <step1>lower cities name</step1>
-    <step2>lower provinces name</step2>
-    <keys_1>
-      <key>eventid</key>
-    </keys_1>
-    <keys_2>
-      <key>eventid</key>
-    </keys_2>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Merge region/country</name>
-    <type>MergeJoin</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <join_type>INNER</join_type>
-    <step1>lower region name</step1>
-    <step2>lower country name</step2>
-    <keys_1>
-      <key>eventid</key>
-    </keys_1>
-    <keys_2>
-      <key>eventid</key>
-    </keys_2>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1072</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Prov Insert / Update</name>
-    <type>InsertUpdate</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <connection>gtd</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema />
-      <table>Province</table>
-      <key>
-        <name>prov_key_norm</name>
-        <field>ProvinceID</field>
-        <condition>=</condition>
-        <name2 />
-      </key>
-      <value>
-        <name>ProvinceID</name>
-        <rename>prov_key_norm</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Name</name>
-        <rename>provstate</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Country</name>
-        <rename>country</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>1264</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Region Insert / Update</name>
-    <type>InsertUpdate</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <connection>gtd</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema />
-      <table>Region</table>
-      <key>
-        <name>region</name>
-        <field>RegionID</field>
-        <condition>=</condition>
-        <name2 />
-      </key>
-      <value>
-        <name>RegionID</name>
-        <rename>region</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Name</name>
-        <rename>region_txt</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1232</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Save cleaned cities value</name>
-    <type>ScriptValueMod</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>32</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <compatible>Y</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Script here
-
-if(match.getString() != null) 
-{
-	if(measurevalue.getNumber() >= 0.9){
-
-city.setValue(match.getString())
-}
-}</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>128</xloc>
-      <yloc>1136</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Save cleaned country value</name>
-    <type>ScriptValueMod</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <compatible>Y</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Script here
-
-if(match.getString() != null) 
-{
-	if(measurevalue.getNumber() >= 0.9){
-country_txt.setValue(match.getString());
-}
-}</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1216</xloc>
-      <yloc>624</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Save cleaned prov value</name>
-    <type>ScriptValueMod</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <compatible>Y</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>//Script here
-
-if(match.getString() != null) 
-{
-	if(measurevalue.getNumber() >= 0.9){
-		provstate.setValue(match.getString());
-	}
-
-}</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>848</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select city</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>city</name>
-      </field>
-      <field>
-        <name>eventid</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>64</xloc>
-      <yloc>80</yloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>Select country</name>
     <type>SelectValues</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
+    <custom_distribution/>
+    <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
+      <field>
+        <name>eventid</name>
+      </field>
       <field>
         <name>country</name>
       </field>
@@ -1633,11 +953,496 @@ if(match.getString() != null)
         <name>country_txt</name>
       </field>
       <field>
-        <name>eventid</name>
+        <name>region</name>
+      </field>
+      <field>
+        <name>region_txt</name>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>144</xloc>
+      <yloc>16</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select country region</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>country</name>
+      </field>
+      <field>
+        <name>country_match</name>
+      </field>
+      <field>
+        <name>region</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
+      <yloc>656</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select merged</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <rename/>
+      </field>
+      <field>
+        <name>country</name>
+        <rename/>
+      </field>
+      <field>
+        <name>country_match</name>
+        <rename/>
+      </field>
+      <field>
+        <name>target_key</name>
+        <rename/>
+      </field>
+      <field>
+        <name>hostkidoutcome_txt</name>
+        <rename/>
+      </field>
+      <field>
+        <name>ishostkid</name>
+        <rename/>
+      </field>
+      <field>
+        <name>outcome_key</name>
+        <rename/>
+      </field>
+      <field>
+        <name>group_key</name>
+        <rename/>
+      </field>
+      <field>
+        <name>corp1</name>
+        <rename/>
+      </field>
+      <field>
+        <name>corporation_key</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mode_key</name>
+        <rename/>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+        <rename/>
+      </field>
+      <field>
+        <name>claimed</name>
+        <rename/>
+      </field>
+      <field>
+        <name>attacktype1</name>
+        <rename/>
+      </field>
+      <field>
+        <name>attacktype1_txt</name>
+        <rename/>
+      </field>
+      <field>
+        <name>weapon_subtype_key</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>544</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select non duplicated</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+      </field>
+      <field>
+        <name>country</name>
+      </field>
+      <field>
+        <name>country_match</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>eventid</name>
+      </field>
+      <field>
+        <name>country</name>
+      </field>
+      <field>
+        <name>country_match</name>
+      </field>
+      <field>
+        <name>country_txt</name>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>752</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort country</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort results</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>eventid</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>80</xloc>
+      <yloc>448</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>country_txt</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>528</xloc>
+      <yloc>16</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows 2</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>country</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>656</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort with key</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>country_txt</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>752</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort without key</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>country_txt</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Unique rows</name>
+    <type>Unique</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <count_rows>N</count_rows>
+    <count_field/>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description/>
+    <fields>
+      <field>
+        <name>country_txt</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+    </fields>
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -1646,623 +1451,32 @@ if(match.getString() != null)
     </remotesteps>
     <GUI>
       <xloc>624</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select provstate</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>provstate</name>
-      </field>
-      <field>
-        <name>eventid</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select region</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>region</name>
-      </field>
-      <field>
-        <name>region_txt</name>
-      </field>
-      <field>
-        <name>eventid</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>816</xloc>
       <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description />
+    <name>Unique rows 2</name>
+    <type>Unique</type>
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
+    <custom_distribution/>
+    <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
+    <count_rows>N</count_rows>
+    <count_field/>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description/>
     <fields>
-      <field>
-        <name>city</name>
-      </field>
-      <field>
-        <name>eventid</name>
-      </field>
-      <field>
-        <name>provstate</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>512</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 2</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>city</name>
-      </field>
-      <field>
-        <name>prov_key_norm</name>
-      </field>
-      <field>
-        <name>city_key</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values 3</name>
-    <type>SelectValues</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <name>provstate</name>
-      </field>
       <field>
         <name>country</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>480</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort by country id</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>country_txt</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
+        <case_insensitive>Y</case_insensitive>
       </field>
     </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1072</xloc>
-      <yloc>384</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort by region id</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>region</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1232</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort city by eventid</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>eventid</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>64</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort city name</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>city</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort country by eventid</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>eventid</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort prov by eventid</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>eventid</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort provstate</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>provstate</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>576</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort region by eventid</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>eventid</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort rows</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>prov_key_norm</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>1008</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort rows 2</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>city_key</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>480</xloc>
-      <yloc>1072</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Sort rows 3</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>provstate</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2271,382 +1485,23 @@ if(match.getString() != null)
     </remotesteps>
     <GUI>
       <xloc>576</xloc>
-      <yloc>512</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>String lower cleaned cities</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>32</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>yes</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>1072</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique city name</name>
-    <type>Unique</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>city</name>
-        <case_insensitive>Y</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>464</xloc>
-      <yloc>672</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique country</name>
-    <type>Unique</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>country_txt</name>
-        <case_insensitive>Y</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1216</xloc>
-      <yloc>384</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique provstate</name>
-    <type>Unique</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>provstate</name>
-        <case_insensitive>Y</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
       <yloc>656</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique region</name>
-    <type>Unique</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>region</name>
-        <case_insensitive>Y</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1232</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique rows</name>
-    <type>Unique</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>prov_key_norm</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>1088</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Unique rows 2</name>
-    <type>Unique</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <count_rows>N</count_rows>
-    <count_field />
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description />
-    <fields>
-      <field>
-        <name>city_key</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>480</xloc>
-      <yloc>1168</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>World cities dictionary</name>
-    <type>CsvInput</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <filename>/home/thoniorf/Documents/Projects/Unical/bia/data-integration/worldcitiespop.csv</filename>
-    <filename_field />
-    <rownum_field>key</rownum_field>
-    <include_filename>N</include_filename>
-    <separator>,</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>N</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <encoding />
-    <fields>
-      <field>
-        <name>Country</name>
-        <type>String</type>
-        <format />
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>2</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>City</name>
-        <type>String</type>
-        <format />
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>23</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>AccentCity</name>
-        <type>String</type>
-        <format />
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>23</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Region</name>
-        <type>String</type>
-        <format>#</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Population</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>8</length>
-        <precision>1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Latitude</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>18</length>
-        <precision>15</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>Longitude</name>
-        <type>Number</type>
-        <format>#.#</format>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>18</length>
-        <precision>16</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>112</xloc>
-      <yloc>720</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>World prov/country dictionary</name>
     <type>CsvInput</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <filename>/home/thoniorf/Documents/Projects/Unical/bia/data-integration/world-cities_csv.csv</filename>
-    <filename_field />
+    <filename_field/>
     <rownum_field>key</rownum_field>
     <include_filename>N</include_filename>
     <separator>,</separator>
@@ -2662,7 +1517,7 @@ if(match.getString() != null)
       <field>
         <name>name</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2673,7 +1528,7 @@ if(match.getString() != null)
       <field>
         <name>country</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2684,7 +1539,7 @@ if(match.getString() != null)
       <field>
         <name>subcountry</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2704,7 +1559,7 @@ if(match.getString() != null)
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2712,136 +1567,26 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>944</xloc>
-      <yloc>496</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>add city key</name>
-    <type>Sequence</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <valuename>city_key</valuename>
-    <use_database>N</use_database>
-    <connection>gtd</connection>
-    <schema />
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name />
-    <start_at>1</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>672</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>city field null</name>
-    <type>IfNull</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <replaceAllByValue />
-    <replaceAllMask />
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>city</name>
-        <value>Unknown</value>
-        <mask />
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>64</xloc>
-      <yloc>144</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>city match dictionary</name>
-    <type>FuzzyMatch</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>32</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <from>Block this step until steps finish 4</from>
-    <lookupfield>City</lookupfield>
-    <mainstreamfield>city</mainstreamfield>
-    <outputmatchfield>match</outputmatchfield>
-    <outputvaluefield>measurevalue</outputvaluefield>
-    <caseSensitive>N</caseSensitive>
-    <closervalue>Y</closervalue>
-    <minimalValue>0</minimalValue>
-    <maximalValue>1</maximalValue>
-    <separator>,</separator>
-    <algorithm>jarowinkler</algorithm>
-    <lookup>
-    </lookup>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>112</xloc>
-      <yloc>960</yloc>
+      <xloc>976</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>country match dictionary</name>
     <type>FuzzyMatch</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>4</copies>
+    <custom_distribution/>
+    <copies>8</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <from>World prov/country dictionary</from>
     <lookupfield>country</lookupfield>
     <mainstreamfield>country_txt</mainstreamfield>
-    <outputmatchfield>match</outputmatchfield>
+    <outputmatchfield>country_match</outputmatchfield>
     <outputvaluefield>measurevalue</outputvaluefield>
     <caseSensitive>N</caseSensitive>
     <closervalue>Y</closervalue>
@@ -2851,7 +1596,7 @@ if(match.getString() != null)
     <algorithm>jarowinkler</algorithm>
     <lookup>
     </lookup>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -2859,25 +1604,25 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1216</xloc>
-      <yloc>496</yloc>
+      <xloc>752</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>gtd_csv</name>
     <type>CsvInput</type>
-    <description />
+    <description/>
     <distribute>N</distribute>
-    <custom_distribution />
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <filename>/home/thoniorf/Documents/Projects/Unical/bia/data-integration/globalterrorismdb_0617dist.csv</filename>
-    <filename_field />
-    <rownum_field />
+    <filename_field/>
+    <rownum_field/>
     <include_filename>N</include_filename>
     <separator>,</separator>
     <enclosure>"</enclosure>
@@ -2887,7 +1632,7 @@ if(match.getString() != null)
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding />
+    <encoding/>
     <fields>
       <field>
         <name>eventid</name>
@@ -2936,7 +1681,7 @@ if(match.getString() != null)
       <field>
         <name>approxdate</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2958,7 +1703,7 @@ if(match.getString() != null)
       <field>
         <name>resolution</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -2980,7 +1725,7 @@ if(match.getString() != null)
       <field>
         <name>country_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3002,7 +1747,7 @@ if(match.getString() != null)
       <field>
         <name>region_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3013,7 +1758,7 @@ if(match.getString() != null)
       <field>
         <name>provstate</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3024,7 +1769,7 @@ if(match.getString() != null)
       <field>
         <name>city</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3036,7 +1781,7 @@ if(match.getString() != null)
         <name>latitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency />
+        <currency/>
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -3047,7 +1792,7 @@ if(match.getString() != null)
         <name>longitude</name>
         <type>Number</type>
         <format>#.######</format>
-        <currency />
+        <currency/>
         <decimal>.</decimal>
         <group>,</group>
         <length>11</length>
@@ -3079,7 +1824,7 @@ if(match.getString() != null)
       <field>
         <name>location</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3090,7 +1835,7 @@ if(match.getString() != null)
       <field>
         <name>summary</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3156,7 +1901,7 @@ if(match.getString() != null)
       <field>
         <name>alternative_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3211,7 +1956,7 @@ if(match.getString() != null)
       <field>
         <name>attacktype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3233,7 +1978,7 @@ if(match.getString() != null)
       <field>
         <name>attacktype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3244,7 +1989,7 @@ if(match.getString() != null)
       <field>
         <name>attacktype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3255,7 +2000,7 @@ if(match.getString() != null)
       <field>
         <name>attacktype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3277,7 +2022,7 @@ if(match.getString() != null)
       <field>
         <name>targtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3299,7 +2044,7 @@ if(match.getString() != null)
       <field>
         <name>targsubtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3310,7 +2055,7 @@ if(match.getString() != null)
       <field>
         <name>corp1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3321,7 +2066,7 @@ if(match.getString() != null)
       <field>
         <name>target1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3343,7 +2088,7 @@ if(match.getString() != null)
       <field>
         <name>natlty1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3354,7 +2099,7 @@ if(match.getString() != null)
       <field>
         <name>targtype2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3365,7 +2110,7 @@ if(match.getString() != null)
       <field>
         <name>targtype2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3376,7 +2121,7 @@ if(match.getString() != null)
       <field>
         <name>targsubtype2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3387,7 +2132,7 @@ if(match.getString() != null)
       <field>
         <name>targsubtype2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3398,7 +2143,7 @@ if(match.getString() != null)
       <field>
         <name>corp2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3409,7 +2154,7 @@ if(match.getString() != null)
       <field>
         <name>target2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3420,7 +2165,7 @@ if(match.getString() != null)
       <field>
         <name>natlty2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3431,7 +2176,7 @@ if(match.getString() != null)
       <field>
         <name>natlty2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3442,7 +2187,7 @@ if(match.getString() != null)
       <field>
         <name>targtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3453,7 +2198,7 @@ if(match.getString() != null)
       <field>
         <name>targtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3464,7 +2209,7 @@ if(match.getString() != null)
       <field>
         <name>targsubtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3475,7 +2220,7 @@ if(match.getString() != null)
       <field>
         <name>targsubtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3486,7 +2231,7 @@ if(match.getString() != null)
       <field>
         <name>corp3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3497,7 +2242,7 @@ if(match.getString() != null)
       <field>
         <name>target3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3508,7 +2253,7 @@ if(match.getString() != null)
       <field>
         <name>natlty3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3519,7 +2264,7 @@ if(match.getString() != null)
       <field>
         <name>natlty3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3530,7 +2275,7 @@ if(match.getString() != null)
       <field>
         <name>gname</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3541,7 +2286,7 @@ if(match.getString() != null)
       <field>
         <name>gsubname</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3552,7 +2297,7 @@ if(match.getString() != null)
       <field>
         <name>gname2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3563,7 +2308,7 @@ if(match.getString() != null)
       <field>
         <name>gsubname2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3574,7 +2319,7 @@ if(match.getString() != null)
       <field>
         <name>gname3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3585,7 +2330,7 @@ if(match.getString() != null)
       <field>
         <name>gsubname3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3596,7 +2341,7 @@ if(match.getString() != null)
       <field>
         <name>motive</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3618,7 +2363,7 @@ if(match.getString() != null)
       <field>
         <name>guncertain2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3629,7 +2374,7 @@ if(match.getString() != null)
       <field>
         <name>guncertain3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3695,7 +2440,7 @@ if(match.getString() != null)
       <field>
         <name>claimmode_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3706,7 +2451,7 @@ if(match.getString() != null)
       <field>
         <name>claim2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3717,7 +2462,7 @@ if(match.getString() != null)
       <field>
         <name>claimmode2</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3728,7 +2473,7 @@ if(match.getString() != null)
       <field>
         <name>claimmode2_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3739,7 +2484,7 @@ if(match.getString() != null)
       <field>
         <name>claim3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3750,7 +2495,7 @@ if(match.getString() != null)
       <field>
         <name>claimmode3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3761,7 +2506,7 @@ if(match.getString() != null)
       <field>
         <name>claimmode3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3772,7 +2517,7 @@ if(match.getString() != null)
       <field>
         <name>compclaim</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3794,7 +2539,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3816,7 +2561,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype1_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3838,7 +2583,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3860,7 +2605,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype2_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3871,7 +2616,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3882,7 +2627,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3893,7 +2638,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype3</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3904,7 +2649,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype3_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3915,7 +2660,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype4</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3926,7 +2671,7 @@ if(match.getString() != null)
       <field>
         <name>weaptype4_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3937,7 +2682,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype4</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3948,7 +2693,7 @@ if(match.getString() != null)
       <field>
         <name>weapsubtype4_txt</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -3959,7 +2704,7 @@ if(match.getString() != null)
       <field>
         <name>weapdetail</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4058,7 +2803,7 @@ if(match.getString() != null)
       <field>
         <name>propextent_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4080,7 +2825,7 @@ if(match.getString() != null)
       <field>
         <name>propcomment</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4124,7 +2869,7 @@ if(match.getString() != null)
       <field>
         <name>nhours</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4135,7 +2880,7 @@ if(match.getString() != null)
       <field>
         <name>ndays</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4146,7 +2891,7 @@ if(match.getString() != null)
       <field>
         <name>divert</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4157,7 +2902,7 @@ if(match.getString() != null)
       <field>
         <name>kidhijcountry</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4190,7 +2935,7 @@ if(match.getString() != null)
       <field>
         <name>ransomamtus</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4212,7 +2957,7 @@ if(match.getString() != null)
       <field>
         <name>ransompaidus</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4223,7 +2968,7 @@ if(match.getString() != null)
       <field>
         <name>ransomnote</name>
         <type>Boolean</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4245,7 +2990,7 @@ if(match.getString() != null)
       <field>
         <name>hostkidoutcome_txt</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4267,7 +3012,7 @@ if(match.getString() != null)
       <field>
         <name>addnotes</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4278,7 +3023,7 @@ if(match.getString() != null)
       <field>
         <name>scite1</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4289,7 +3034,7 @@ if(match.getString() != null)
       <field>
         <name>scite2</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4300,7 +3045,7 @@ if(match.getString() != null)
       <field>
         <name>scite3</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4311,7 +3056,7 @@ if(match.getString() != null)
       <field>
         <name>dbsource</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4366,7 +3111,7 @@ if(match.getString() != null)
       <field>
         <name>related</name>
         <type>String</type>
-        <format />
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
@@ -4375,7 +3120,7 @@ if(match.getString() != null)
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -4383,38 +3128,284 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>0</yloc>
+      <xloc>32</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>lower cities name</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
+    <name>log</name>
+    <type>TextFileOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding/>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${Internal.Entry.Current.Directory}/country</name>
+      <is_command>N</is_command>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery>0</splitevery>
+    </file>
     <fields>
       <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
+        <name>eventid</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
         <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>no</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>country</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>country_match</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>region</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>region_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>27</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>target_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>hostkidoutcome_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>35</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>ishostkid</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>outcome_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>gname</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>64</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>group_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>corp1</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>53</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>corporation_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>mode_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>claimmode_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>7</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>claimed</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>15</length>
+        <precision>0</precision>
+      </field>
+      <field>
+        <name>attacktype1_txt</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>30</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>weapon_subtype_key</name>
+        <type>Integer</type>
+        <format>####0;-####0</format>
+        <currency/>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>0</precision>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -4422,410 +3413,38 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>192</xloc>
-      <yloc>368</yloc>
+      <xloc>160</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>lower cleaned country</name>
     <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>2</copies>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
         <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
+        <out_stream_name/>
         <trim_type>none</trim_type>
         <lower_upper>lower</lower_upper>
         <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
+        <pad_char/>
+        <pad_len/>
         <init_cap>yes</init_cap>
         <mask_xml>none</mask_xml>
         <digits>none</digits>
         <remove_special_characters>none</remove_special_characters>
       </field>
     </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1216</xloc>
-      <yloc>704</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>lower cleaned prov</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>yes</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>928</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>lower country name</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>no</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>lower provinces name</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>no</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>560</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>lower region name</name>
-    <type>StringOperations</type>
-    <description />
-    <distribute>N</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>region_txt</in_stream_name>
-        <out_stream_name />
-        <trim_type>none</trim_type>
-        <lower_upper>lower</lower_upper>
-        <padding_type>none</padding_type>
-        <pad_char />
-        <pad_len />
-        <init_cap>yes</init_cap>
-        <mask_xml>none</mask_xml>
-        <digits>none</digits>
-        <remove_special_characters>none</remove_special_characters>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1072</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>prov field null</name>
-    <type>IfNull</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <replaceAllByValue />
-    <replaceAllMask />
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>provstate</name>
-        <value>Unknown</value>
-        <mask />
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>prov match dictionary</name>
-    <type>FuzzyMatch</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>4</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <from>World prov/country dictionary</from>
-    <lookupfield>subcountry</lookupfield>
-    <mainstreamfield>provstate</mainstreamfield>
-    <outputmatchfield>match</outputmatchfield>
-    <outputvaluefield>measurevalue</outputvaluefield>
-    <caseSensitive>N</caseSensitive>
-    <closervalue>Y</closervalue>
-    <minimalValue>0</minimalValue>
-    <maximalValue>1</maximalValue>
-    <separator>,</separator>
-    <algorithm>jarowinkler</algorithm>
-    <lookup>
-    </lookup>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>944</xloc>
-      <yloc>768</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>replace city</name>
-    <type>ReplaceString</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>^(\((.*?)\))</replace_string>
-        <replace_by_string>$2</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\*</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>city</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\?</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>192</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>replace country</name>
-    <type>ReplaceString</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>^(\((.*?)\))</replace_string>
-        <replace_by_string>$2</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\*</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>country_txt</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\?</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-    </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -4839,63 +3458,32 @@ if(match.getString() != null)
     </GUI>
   </step>
   <step>
-    <name>replace prov</name>
-    <type>ReplaceString</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
+    <name>lower country name</name>
+    <type>StringOperations</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>^(\((.*?)\))</replace_string>
-        <replace_by_string>$2</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\*</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-      </field>
-      <field>
-        <in_stream_name>provstate</in_stream_name>
-        <out_stream_name />
-        <use_regex>yes</use_regex>
-        <replace_string>\?</replace_string>
-        <replace_by_string />
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
+        <in_stream_name>country_txt</in_stream_name>
+        <out_stream_name/>
+        <trim_type>none</trim_type>
+        <lower_upper>lower</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -4903,69 +3491,69 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
-      <yloc>192</yloc>
+      <xloc>416</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>replace region</name>
+    <name>replace country</name>
     <type>ReplaceString</type>
-    <description />
+    <description/>
     <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>2</copies>
+    <custom_distribution/>
+    <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name />
+      <schema_name/>
     </partitioning>
     <fields>
       <field>
-        <in_stream_name>region_txt</in_stream_name>
-        <out_stream_name />
+        <in_stream_name>country_txt</in_stream_name>
+        <out_stream_name/>
         <use_regex>yes</use_regex>
         <replace_string>^(\((.*?)\))</replace_string>
         <replace_by_string>$2</replace_by_string>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
+        <replace_field_by_string/>
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
-        <in_stream_name>region_txt</in_stream_name>
-        <out_stream_name />
+        <in_stream_name>country_txt</in_stream_name>
+        <out_stream_name/>
         <use_regex>yes</use_regex>
         <replace_string>(\((.*?)\))$</replace_string>
-        <replace_by_string />
+        <replace_by_string/>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
+        <replace_field_by_string/>
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
-        <in_stream_name>region_txt</in_stream_name>
-        <out_stream_name />
+        <in_stream_name>country_txt</in_stream_name>
+        <out_stream_name/>
         <use_regex>yes</use_regex>
         <replace_string>\*</replace_string>
-        <replace_by_string />
+        <replace_by_string/>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
+        <replace_field_by_string/>
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
       <field>
-        <in_stream_name>region_txt</in_stream_name>
-        <out_stream_name />
+        <in_stream_name>country_txt</in_stream_name>
+        <out_stream_name/>
         <use_regex>yes</use_regex>
         <replace_string>\?</replace_string>
-        <replace_by_string />
+        <replace_by_string/>
         <set_empty_string>N</set_empty_string>
-        <replace_field_by_string />
+        <replace_field_by_string/>
         <whole_word>no</whole_word>
         <case_sensitive>no</case_sensitive>
       </field>
     </fields>
-    <cluster_schema />
+    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
@@ -4973,7 +3561,7 @@ if(match.getString() != null)
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1072</xloc>
+      <xloc>272</xloc>
       <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>

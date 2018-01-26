@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>criteria</name>
+    <name>load_dim_criteria1</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -428,9 +427,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2018/01/03 10:44:05.370</created_date>
+    <created_date>2018/01/21 19:06:57.952</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2018/01/03 10:44:05.370</modified_date>
+    <modified_date>2018/01/21 19:06:57.952</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -449,6 +448,69 @@
     <data_tablespace/>
     <index_tablespace/>
     <attributes>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.zeroDateTimeBehavior</code>
+        <attribute>convertToNull</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>gtd_dw</name>
+    <server>localhost</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>gtd_dw</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.zeroDateTimeBehavior</code>
+        <attribute>convertToNull</attribute>
+      </attribute>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
         <attribute>N</attribute>
@@ -493,108 +555,16 @@
   </connection>
   <order>
     <hop>
-      <from>Generate dummy Rows</from>
-      <to>Add crit value</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add crit value</from>
-      <to>Add crit key</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add crit key</from>
+      <from>criteria1-rec</from>
       <to>Insert / Update</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Add crit key</from>
-      <to>Insert / Update 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Add crit key</from>
-      <to>Insert / Update 3</to>
+      <from>max_dim_criteria1_last_update</from>
+      <to>criteria1-rec</to>
       <enabled>Y</enabled>
     </hop>
   </order>
-  <step>
-    <name>Add crit value</name>
-    <type>Sequence</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <valuename>crit_value</valuename>
-    <use_database>N</use_database>
-    <connection>gtd</connection>
-    <schema/>
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name/>
-    <start_at>0</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Generate dummy Rows</name>
-    <type>RowGenerator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>dummy</name>
-        <type>Boolean</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <limit>2</limit>
-    <never_ending>N</never_ending>
-    <interval_in_ms>5000</interval_in_ms>
-    <row_time_field>now</row_time_field>
-    <last_time_field>FiveSecondsAgo</last_time_field>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>80</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
   <step>
     <name>Insert / Update</name>
     <type>InsertUpdate</type>
@@ -606,26 +576,31 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>gtd</connection>
-    <commit>100</commit>
+    <connection>gtd_dw</connection>
+    <commit>10000</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
-      <table>Criteria1</table>
+      <table>dim_criteria1</table>
       <key>
-        <name>crit_key</name>
-        <field>Criteria1ID</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>Name</name>
-        <rename>crit_value</rename>
-        <update>Y</update>
-      </value>
-      <value>
         <name>Criteria1ID</name>
-        <rename>crit_key</rename>
+        <field>criteria1ID</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>criteria1ID</name>
+        <rename>Criteria1ID</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>value</name>
+        <rename>Name</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>last_update</name>
+        <rename>LastUpdate</rename>
         <update>Y</update>
       </value>
     </lookup>
@@ -637,14 +612,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>224</xloc>
-      <yloc>400</yloc>
+      <xloc>128</xloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Insert / Update 2</name>
-    <type>InsertUpdate</type>
+    <name>criteria1-rec</name>
+    <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -654,28 +629,18 @@
       <schema_name/>
     </partitioning>
     <connection>gtd</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>Criteria2</table>
-      <key>
-        <name>crit_key</name>
-        <field>Criteria2ID</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>Name</name>
-        <rename>crit_value</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Criteria2ID</name>
-        <rename>crit_key</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
+    <sql>SELECT
+  Criteria1ID
+, Name
+, LastUpdate
+FROM Criteria1
+where LastUpdate > ?
+</sql>
+    <limit>0</limit>
+    <lookup>max_dim_criteria1_last_update</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -684,14 +649,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>400</yloc>
+      <xloc>128</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Insert / Update 3</name>
-    <type>InsertUpdate</type>
+    <name>max_dim_criteria1_last_update</name>
+    <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -700,29 +665,18 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>gtd</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>Criteria3</table>
-      <key>
-        <name>crit_key</name>
-        <field>Criteria3ID</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>Name</name>
-        <rename>crit_value</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Criteria3ID</name>
-        <rename>crit_key</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
+    <connection>gtd_dw</connection>
+    <sql>SELECT COALESCE(
+           MAX(last_update)
+       ,   '1970-01-01 00:00:00'
+       ) AS max_dim_criteria1_last_update
+FROM   dim_criteria1
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -731,42 +685,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>496</xloc>
-      <yloc>400</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Add crit key</name>
-    <type>Sequence</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <valuename>crit_key</valuename>
-    <use_database>N</use_database>
-    <connection>gtd</connection>
-    <schema/>
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name/>
-    <start_at>1</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>256</yloc>
+      <xloc>128</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
