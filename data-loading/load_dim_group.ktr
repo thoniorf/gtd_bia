@@ -627,7 +627,7 @@
         <lookup>groupID</lookup>
       </key>
       <date>
-        <name>current_date</name>
+        <name>LastUpdate</name>
         <from>validity_from</from>
         <to>validity_to</to>
       </date>
@@ -649,7 +649,7 @@
     <max_year>2199</max_year>
     <cache_size>0</cache_size>
     <preload_cache>N</preload_cache>
-    <use_start_date_alternative>Y</use_start_date_alternative>
+    <use_start_date_alternative>N</use_start_date_alternative>
     <start_date_alternative>sysdate</start_date_alternative>
     <start_date_field_name>last_update</start_date_field_name>
     <useBatch>N</useBatch>

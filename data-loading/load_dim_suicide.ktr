@@ -557,7 +557,7 @@
     <hop>
       <from>suicide-rec</from>
       <to>Insert / Update</to>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
     </hop>
     <hop>
       <from>max_dim_suicide_last_update</from>
